@@ -1,0 +1,31 @@
+ktest file : 'test000004.ktest'
+args       : ['test.bc']
+num objects: 4
+object 0: name: 'model_version'
+object 0: size: 4
+object 0: data: b'\x01\x00\x00\x00'
+object 0: hex : 0x01000000
+object 0: int : 1
+object 0: uint: 1
+object 0: text: ....
+object 1: name: 'a'
+object 1: size: 4
+object 1: data: b'\x00\x00\x00\x80'
+object 1: hex : 0x00000080
+object 1: int : -2147483648
+object 1: uint: 2147483648
+object 1: text: ....
+object 2: name: 'b'
+object 2: size: 4
+object 2: data: b'\x00\x00\x00\x81'
+object 2: hex : 0x00000081
+object 2: int : -2130706432
+object 2: uint: 2164260864
+object 2: text: ....
+object 3: name: 'c'
+object 3: size: 4
+object 3: data: b'\x00\x00\x00\x00'
+object 3: hex : 0x00000000
+object 3: int : 0
+object 3: uint: 0
+object 3: text: ....
